@@ -1,0 +1,106 @@
+.column {
+  float: left;
+  width: 27.33%;
+  padding: 10px;
+  height: 300px;
+  position: relative;
+}
+
+
+
+/* COLUMNS */
+
+.left {
+  background-color: #ff0000;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.left:hover {
+  background-color: #7799CE;
+  cursor: pointer;
+}
+
+.center {
+  background-color: #92C842;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.center:hover {
+  background-color: #FFBFEF;
+  cursor: pointer;
+}
+
+.right {
+  background-color: #F99C36;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.right:hover {
+  background-color: #F9FF9A;
+  cursor: pointer;
+}
+
+/* SHAPES */
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #EF527A;
+  border-radius: 50%;
+  position: absolute; left: calc(50% - 25px); top: calc(50% - 25px);
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.circle:hover {
+  background-color: #03A484;
+  cursor: pointer;
+}
+
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 35px solid transparent;
+	border-top: 50px solid #2D50AA;
+  position: absolute; left: calc(50% - 45px); top: calc(50% - 25px);
+  -webkit-transition: border-top 2s ease-out;
+  -moz-transition: border-top 2s ease-out;
+  -o-transition: border-top 2s ease-out;
+  transition: border-top 2s ease-out;
+}
+
+.triangle-down:hover {
+  border-top: 50px solid #B42B0E;
+  cursor: pointer;
+}
+
+
+.parallelogram {
+	width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+	background: #FCE109;
+  position: absolute; left: calc(50% - 50px); top: calc(50% - 25px);
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.parallelogram:hover {
+  background-color: orange;
+  cursor: pointer;
+}
